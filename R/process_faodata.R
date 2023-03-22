@@ -10,7 +10,7 @@ project_dir <- "./"
 
 # create regionalisation project directories
 data_dir <- paste(project_dir, "data/raw/fao", sep = "/")
-write_data_dir <- paste(project_dir, "data/processed/fao/Christophe", sep = "/")
+write_data_dir <- paste(project_dir, "data/processed/fao", sep = "/")
 dir.create(write_data_dir, recursive = TRUE)
 
 
